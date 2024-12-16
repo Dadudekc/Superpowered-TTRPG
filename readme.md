@@ -46,3 +46,46 @@ main.py: Entry point for the game, handling user inputs and starting the game lo
 Data Structures:
 Classes: Use Python classes to represent characters, NPCs, powers, and other entities.
 Dataclasses: Utilize @dataclass for cleaner and more manageable code.
+
+5. Integrating Ollama Run and ChatGPT/Mistral 7B as the DM
+Understanding DM Options:
+OpenAI ChatGPT:
+
+Utilizes the OpenAI API to communicate with ChatGPT models.
+Requires an API key and internet connectivity.
+Mistral 7B (Local via Ollama Run):
+
+Runs locally on your machine using Ollama Run.
+Does not require internet connectivity once set up.
+Leverages your local Mistral 7B model.
+Setting Up Ollama Run with Mistral 7B:
+Install Ollama: Follow the Ollama installation guide.
+
+Download and Configure Mistral 7B:
+
+Ensure the Mistral 7B model is available and properly set up in Ollama.
+Verify by running a test prompt:
+bash
+Copy code
+ollama run mistral-7b "Hello, DM! Describe the scene."
+If the above command returns a coherent response, the setup is correct.
+Adjust the dm_interface.py:
+
+Ensure the model name in the subprocess command matches your Ollama model configuration (e.g., mistral-7b).
+Configuring OpenAI ChatGPT:
+Obtain an OpenAI API Key:
+
+Sign up or log in to OpenAI and navigate to the API section to obtain your API key.
+Set the API Key as an Environment Variable:
+
+For security, it's best to set your API key as an environment variable rather than hardcoding it.
+On Unix/Linux/macOS:
+bash
+Copy code
+export OPENAI_API_KEY='your-api-key-here'
+On Windows:
+cmd
+Copy code
+set OPENAI_API_KEY=your-api-key-here
+Alternatively, you can use a .env file with libraries like python-dotenv to manage environment variables.
+

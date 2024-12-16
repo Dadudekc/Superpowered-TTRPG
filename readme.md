@@ -26,8 +26,8 @@ rich for enhanced terminal output (optional)
 subprocess for interacting with Ollama Run
 requests for API calls (if using OpenAI)
 Setting Up the Environment:
-bash
-Copy code
+
+
 # Create a virtual environment
 python -m venv ttrpg_env
 source ttrpg_env/bin/activate  # On Windows: ttrpg_env\Scripts\activate
@@ -65,8 +65,8 @@ Download and Configure Mistral 7B:
 
 Ensure the Mistral 7B model is available and properly set up in Ollama.
 Verify by running a test prompt:
-bash
-Copy code
+
+
 ollama run mistral-7b "Hello, DM! Describe the scene."
 If the above command returns a coherent response, the setup is correct.
 Adjust the dm_interface.py:
@@ -80,12 +80,12 @@ Set the API Key as an Environment Variable:
 
 For security, it's best to set your API key as an environment variable rather than hardcoding it.
 On Unix/Linux/macOS:
-bash
-Copy code
+
+
 export OPENAI_API_KEY='your-api-key-here'
 On Windows:
-cmd
-Copy code
+
+
 set OPENAI_API_KEY=your-api-key-here
 Alternatively, you can use a .env file with libraries like python-dotenv to manage environment variables.
 

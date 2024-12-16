@@ -46,10 +46,12 @@ def send_prompt_to_mistral(prompt: str) -> str:
     Sends a prompt to Mistral 7B running locally via Ollama Run and returns the response.
     """
     try:
-        # Adjust the command based on your Ollama Run configuration and model name.
-        # Replace 'mistral-7b' with the actual name of your local model in Ollama.
+        # Use the exact model name as shown in "ollama list"
+        model_name = "mistral:latest"
+        print(f"Running: ollama run {model_name} \"{prompt}\"")  # Debugging log
+        
         result = subprocess.run(
-            ["ollama", "run", "mistral-7b", prompt],
+            ["ollama", "run", model_name, prompt],
             capture_output=True,
             text=True,
             check=True
@@ -57,5 +59,6 @@ def send_prompt_to_mistral(prompt: str) -> str:
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
         print("Error communicating with Mistral 7B via Ollama Run:", e)
+        print("Output:", e.output)
         return "An error occurred while communicating with the local DM."
 

@@ -32,7 +32,7 @@ class Power:
     activation_type: str  # Action, Bonus Action, Reaction, Passive
     effect: Optional[dict] = field(default_factory=dict)
 
-# Example function to create a character
+# function to create a character
 def create_character():
     print("Welcome to Superpowered TTRPG Character Creation!")
     name = input("Enter your character's name: ")
@@ -48,34 +48,41 @@ def create_character():
     }
 
     points = 27
-    print("\nAssign 27 points to the following attributes:")
-    for attr in attributes:
-        print(f"{attr}: {attributes[attr]}")
+    print("\nYou have 27 points to distribute among your attributes (STR, DEX, CON, INT, WIS, CHA).")
+    print("Each attribute starts at 8. Assign additional points using the following costs:")
+    print("""
+    9 = 1 point
+    10 = 2 points
+    11 = 3 points
+    12 = 4 points
+    13 = 5 points
+    14 = 7 points
+    15 = 9 points
+    Maximum value for any attribute is 15.
+    """)
 
-    # Implement point-buy system
-    while points > 0:
-        print(f"\nPoints remaining: {points}")
-        attr = input("Choose an attribute to increase (STR, DEX, CON, INT, WIS, CHA): ").upper()
-        if attr not in attributes:
-            print("Invalid attribute. Try again.")
-            continue
-        # Define the cost structure
-        costs = {9:1, 10:2, 11:3, 12:4,13:5,14:7,15:9}
-        current = attributes[attr]
-        if current >= 15:
-            print(f"{attr} is already at maximum (15).")
-            continue
-        new_value = current + 1
-        if new_value > 15:
-            print("Cannot exceed 15.")
-            continue
-        cost = costs.get(new_value, 9)
-        if points < cost:
-            print(f"Not enough points to increase {attr} to {new_value}.")
-            continue
-        attributes[attr] = new_value
-        points -= cost
-        print(f"{attr} increased to {new_value}.")
+    while True:
+        print("\nEnter the desired final values for each attribute.")
+        print(f"Remaining points: {points}")
+        try:
+            # Input all attributes at once
+            for attr in attributes:
+                value = int(input(f"{attr} (current: {attributes[attr]}): "))
+                if value < 8 or value > 15:
+                    raise ValueError(f"Attribute {attr} must be between 8 and 15.")
+                cost = calculate_cost(attributes[attr], value)
+                if cost > points:
+                    raise ValueError(f"Not enough points to increase {attr} to {value}. Required: {cost}, Remaining: {points}")
+                attributes[attr] = value
+                points -= cost
+            break
+        except ValueError as e:
+            print(f"Error: {e}")
+            print("Let's try again.")
+
+    print("\nFinal attributes:")
+    for attr, value in attributes.items():
+        print(f"{attr}: {value}")
 
     # Attribute Bonuses
     print("\nChoose a +2 bonus to an attribute.")
@@ -114,6 +121,16 @@ def create_character():
 
     print(f"\nCharacter {name} created successfully!")
     return character
+
+def calculate_cost(current, target):
+    """
+    Calculate the total cost of increasing an attribute from `current` to `target`.
+    """
+    costs = {9: 1, 10: 2, 11: 3, 12: 4, 13: 5, 14: 7, 15: 9}
+    total_cost = 0
+    for value in range(current + 1, target + 1):
+        total_cost += costs[value]
+    return total_cost
 
 def choose_attribute(attributes, exclude=None):
     while True:

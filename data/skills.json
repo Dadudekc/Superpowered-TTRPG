@@ -1,0 +1,137 @@
+{
+    "skills": [
+      {
+        "name": "Stealth",
+        "category": "Physical",
+        "description": "Move unseen and unheard, allowing you to evade enemies or set up ambushes.",
+        "effects": {
+          "detection_reduction": 75,
+          "cooldown": "None",
+          "synergy": ["Invisibility", "Acrobatics", "Shapeshifting"]
+        }
+      },
+      {
+        "name": "Acrobatics",
+        "category": "Physical",
+        "description": "Perform agile movements, including flips, dodges, and impressive leaps.",
+        "effects": {
+          "dodge_bonus": 20,
+          "fall_damage_reduction": 50,
+          "synergy": ["Super Speed", "Super Strength", "Wall Crawling"]
+        }
+      },
+      {
+        "name": "Hacking",
+        "category": "Mental",
+        "description": "Bypass electronic security systems and manipulate digital networks.",
+        "effects": {
+          "success_rate": "Varies by system difficulty",
+          "cooldown": "10 seconds",
+          "synergy": ["Technopathy", "Intelligence", "Electrokinesis"]
+        }
+      },
+      {
+        "name": "Intimidation",
+        "category": "Social",
+        "description": "Strike fear into your opponents, making them more likely to flee or submit.",
+        "effects": {
+          "fear_duration": "10 seconds",
+          "debuff": "Enemy attack power reduced by 30%",
+          "synergy": ["Super Strength", "Dark Presence", "Demonic Aura"]
+        }
+      },
+      {
+        "name": "Persuasion",
+        "category": "Social",
+        "description": "Convince NPCs to agree with your arguments or requests.",
+        "effects": {
+          "influence_boost": 20,
+          "synergy": ["Charisma", "Telepathy", "Mind Control"]
+        }
+      },
+      {
+        "name": "Medicine",
+        "category": "Mental",
+        "description": "Diagnose and heal injuries using medical knowledge and supplies.",
+        "effects": {
+          "healing_boost": "30% additional effectiveness",
+          "cooldown": "None",
+          "synergy": ["Regeneration", "Biokinesis", "Poison Resistance"]
+        }
+      },
+      {
+        "name": "Weapon Mastery",
+        "category": "Physical",
+        "description": "Specialize in handling a specific type of weapon with greater precision and power.",
+        "effects": {
+          "damage_boost": "25% for chosen weapon type",
+          "synergy": ["Super Strength", "Combat Reflexes", "Tactical Awareness"]
+        }
+      },
+      {
+        "name": "Tactical Awareness",
+        "category": "Mental",
+        "description": "Analyze battlefields to predict enemy movements and react accordingly.",
+        "effects": {
+          "initiative_bonus": 10,
+          "enemy_miss_chance": "5% increase",
+          "synergy": ["Precognition", "Combat Reflexes", "Enhanced Senses"]
+        }
+      },
+      {
+        "name": "Deception",
+        "category": "Social",
+        "description": "Convince others of falsehoods or hide your true intentions.",
+        "effects": {
+          "lie_success_rate": "Varies by NPC intelligence",
+          "synergy": ["Shapeshifting", "Telepathy", "Illusions"]
+        }
+      },
+      {
+        "name": "Engineering",
+        "category": "Mental",
+        "description": "Modify, repair, or construct advanced technology and weapons.",
+        "effects": {
+          "device_efficiency": "20% improvement",
+          "synergy": ["Technopathy", "Super Intelligence", "Cybernetics"]
+        }
+      },
+      {
+        "name": "Survival",
+        "category": "Physical",
+        "description": "Navigate and endure extreme environments with minimal resources.",
+        "effects": {
+          "environmental_resistance": "50% damage reduction",
+          "synergy": ["Enhanced Endurance", "Animal Affinity", "Alchemy"]
+        }
+      },
+      {
+        "name": "Forgery",
+        "category": "Social",
+        "description": "Create convincing fake documents, IDs, or artifacts.",
+        "effects": {
+          "success_rate": "Varies by target scrutiny",
+          "synergy": ["Illusions", "Hacking", "Disguise"]
+        }
+      },
+      {
+        "name": "Tracking",
+        "category": "Physical",
+        "description": "Follow trails, detect footprints, and analyze crime scenes.",
+        "effects": {
+          "tracking_accuracy": "Increases success rate by 30%",
+          "synergy": ["Enhanced Senses", "Investigation", "Animal Affinity"]
+        }
+      },
+      {
+        "name": "Alchemy",
+        "category": "Mental",
+        "description": "Create potions, poisons, and chemical enhancements.",
+        "effects": {
+          "effect_duration": "Increases potion potency by 30%",
+          "synergy": ["Biokinesis", "Poison Resistance", "Technology"]
+        }
+      }
+    ]
+  }
+  

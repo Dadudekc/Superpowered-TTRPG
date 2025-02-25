@@ -1,0 +1,116 @@
+{
+    "arcs": [
+        {
+            "id": 1,
+            "name": "The Awakening",
+            "description": "A mysterious power surge grants abilities to new heroes.",
+            "key_events": ["The Genesis Event", "Discovery of Powers"],
+            "locked_locations": []
+        },
+        {
+            "id": 2,
+            "name": "Shadow War",
+            "description": "A secret organization is manipulating world events from the shadows.",
+            "key_events": ["Uncover the Conspiracy", "Battle with the Hidden Council"],
+            "locked_locations": ["The Black Market"]
+        },
+        {
+            "id": 3,
+            "name": "Rise of the Machines",
+            "description": "AI and cybernetic beings challenge humanity's dominance.",
+            "key_events": ["AI Rebellion", "Destruction of the Mainframe"],
+            "locked_locations": ["CyberCore Labs"]
+        },
+        {
+            "id": 4,
+            "name": "Cosmic Threat",
+            "description": "An extraterrestrial force threatens Earth with destruction.",
+            "key_events": ["First Contact", "Defend Earth from the Invaders"],
+            "locked_locations": ["Alien Mothership"]
+        },
+        {
+            "id": 5,
+            "name": "Underworld Uprising",
+            "description": "Criminal syndicates and rogue metahumans fight for control.",
+            "key_events": ["Gang Wars Erupt", "Take Down the Kingpin"],
+            "locked_locations": ["Shadow Alley"]
+        },
+        {
+            "id": 6,
+            "name": "Time Rift Crisis",
+            "description": "Time itself is unraveling, and only the heroes can fix it.",
+            "key_events": ["Temporal Anomalies Appear", "Repair the Time Continuum"],
+            "locked_locations": ["Chrono Nexus"]
+        },
+        {
+            "id": 7,
+            "name": "The Final Stand",
+            "description": "The ultimate battle between good and evil decides the fate of all.",
+            "key_events": ["Assemble the Last Defenders", "Face the Ultimate Villain"],
+            "locked_locations": ["Endgame Battlefield"]
+        },
+        {
+            "id": 8,
+            "name": "Multiversal Convergence",
+            "description": "Different realities collide, reshaping the universe forever.",
+            "key_events": ["Multiverse Breach", "Seal the Convergence Portal"],
+            "locked_locations": ["Quantum Void"]
+        },
+        {
+            "id": 9,
+            "name": "Gods Among Us",
+            "description": "Ancient deities awaken, challenging humanity's place in the cosmos.",
+            "key_events": ["Awakening of the Titans", "Choose a Side in the Divine War"],
+            "locked_locations": ["Celestial Temple"]
+        },
+        {
+            "id": 10,
+            "name": "Biohazard Outbreak",
+            "description": "A deadly virus mutates, granting horrific powers to those infected.",
+            "key_events": ["Quarantine the City", "Find the Cure"],
+            "locked_locations": ["Infected Zone"]
+        },
+        {
+            "id": 11,
+            "name": "New World Order",
+            "description": "Governments collapse as metahuman factions seize control of cities.",
+            "key_events": ["Rebel Against Tyranny", "Establish the New Order"],
+            "locked_locations": ["The Ruined Capitol"]
+        },
+        {
+            "id": 12,
+            "name": "Dark Dimensions",
+            "description": "An interdimensional rift releases eldritch horrors upon the world.",
+            "key_events": ["Close the Dimensional Rift", "Battle the Horror Overlord"],
+            "locked_locations": ["Abyssal Gate"]
+        },
+        {
+            "id": 13,
+            "name": "Neon Revolution",
+            "description": "Cyber-enhanced rebels wage war against corporate overlords in a dystopian future.",
+            "key_events": ["Hack the Central Grid", "Topple the Corporate Regime"],
+            "locked_locations": ["Neon City"]
+        },
+        {
+            "id": 14,
+            "name": "Solar Eclipse",
+            "description": "A celestial anomaly grants unimaginable power but comes with a cost.",
+            "key_events": ["Harness the Eclipse Power", "Face the Cosmic Consequences"],
+            "locked_locations": ["Solar Citadel"]
+        },
+        {
+            "id": 15,
+            "name": "The Deep Below",
+            "description": "Something ancient stirs beneath the oceans, reshaping the balance of power.",
+            "key_events": ["Uncover the Secrets of the Abyss", "Stop the Rising Leviathan"],
+            "locked_locations": ["Deep Sea Trench"]
+        },
+        {
+            "id": 16,
+            "name": "Legacy of the Titans",
+            "description": "The return of an ancient, godlike race threatens to wipe out civilization.",
+            "key_events": ["Unveil the Titan Prophecy", "Battle the Primordial Beings"],
+            "locked_locations": ["Titan's Throne"]
+        }
+    ]
+}

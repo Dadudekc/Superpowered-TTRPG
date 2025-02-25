@@ -1,0 +1,144 @@
+{
+    "npcs": [
+        {
+            "name": "Mayor Luthor Graves",
+            "role": "Mayor of Paragon City",
+            "description": "A seasoned politician struggling to maintain order as superpowered conflicts escalate.",
+            "location": "Paragon City",
+            "relevant_arc": [0, 1, 2, 3, 5],
+            "faction": "Paragon PD",
+            "alignment": "Lawful Neutral",
+            "notable_interactions": [
+                "Introduces the hero to the city's political landscape.",
+                "Provides funding for metahuman initiatives."
+            ]
+        },
+        {
+            "name": "Detective Anya Calloway",
+            "role": "Hardened Detective of Paragon PD",
+            "description": "A no-nonsense investigator who specializes in tracking rogue metahumans.",
+            "location": "Paragon City",
+            "relevant_arc": [1, 2, 5],
+            "faction": "Paragon PD",
+            "alignment": "Lawful Good",
+            "notable_interactions": [
+                "Helps the player uncover criminal activities.",
+                "May request assistance in major cases."
+            ]
+        },
+        {
+            "name": "Lady Venom",
+            "role": "Leader of the Crimson Court",
+            "description": "A ruthless crime lord with enhanced reflexes and venom-based abilities.",
+            "location": "Shadow Row",
+            "relevant_arc": [2, 5],
+            "faction": "The Crimson Court",
+            "alignment": "Chaotic Evil",
+            "notable_interactions": [
+                "Offers morally questionable jobs.",
+                "A potential recurring villain or uneasy ally."
+            ]
+        },
+        {
+            "name": "Iron Maw",
+            "role": "Cybernetic Mercenary Leader",
+            "description": "A former human turned into a war machine, leading rogue AI soldiers.",
+            "location": "Steel Haven",
+            "relevant_arc": [3],
+            "faction": "The Iron Syndicate",
+            "alignment": "Neutral Evil",
+            "notable_interactions": [
+                "Leads a major encounter in the 'Rise of the Machines' arc.",
+                "Can provide cybernetic enhancements—at a price."
+            ]
+        },
+        {
+            "name": "Dr. Evelyn Rook",
+            "role": "Tech Engineer and AI Specialist",
+            "description": "A genius scientist working on AI ethics and human-cybernetic relations.",
+            "location": "Steel Haven",
+            "relevant_arc": [3],
+            "faction": "Corporate Cyber Division",
+            "alignment": "True Neutral",
+            "notable_interactions": [
+                "Provides hacking tools and AI research.",
+                "May defect based on player's choices."
+            ]
+        },
+        {
+            "name": "Lord Viktor Frost",
+            "role": "Ruler of the Frostspire Tundra",
+            "description": "A centuries-old warrior who guards the tundra’s ancient secrets.",
+            "location": "Frostspire Tundra",
+            "relevant_arc": [5],
+            "faction": "The Northwatch Order",
+            "alignment": "Lawful Neutral",
+            "notable_interactions": [
+                "Tests the player’s worth in battle.",
+                "Holds knowledge of ancient relics."
+            ]
+        },
+        {
+            "name": "The Time Wanderer",
+            "role": "Mysterious Chronomancer",
+            "description": "An enigmatic figure who appears in multiple timelines, offering cryptic warnings.",
+            "location": "Skyshard Archipelago",
+            "relevant_arc": [6],
+            "faction": "Independent",
+            "alignment": "Neutral Good",
+            "notable_interactions": [
+                "Hints at future events.",
+                "May provide time-based powers."
+            ]
+        },
+        {
+            "name": "The Void Monarch",
+            "role": "Ruler of the Oblivion Nexus",
+            "description": "A cosmic being that seeks to unravel reality itself.",
+            "location": "Oblivion Nexus",
+            "relevant_arc": [8],
+            "faction": "Void Monarch's Legion",
+            "alignment": "Chaotic Evil",
+            "notable_interactions": [
+                "Final boss of the game.",
+                "Offers the player ultimate power—for a price."
+            ]
+        },
+        {
+            "name": "Detective Lane",
+            "role": "Hard-boiled Detective",
+            "description": "A hard-boiled detective investigating the surge of superpowered individuals.",
+            "location": "Paragon City Police HQ",
+            "relevant_arc": [1, 2],
+            "faction": "Law Enforcement",
+            "alignment": "Neutral",
+            "notable_interactions": [
+                "Investigates crimes related to superpowered conflicts."
+            ]
+        },
+        {
+            "name": "Dr. Sylva",
+            "role": "Scientist",
+            "description": "A scientist researching the sudden metahuman awakening.",
+            "location": "Omnitech Research Lab",
+            "relevant_arc": [1, 3],
+            "faction": "Omnitech",
+            "alignment": "Neutral",
+            "notable_interactions": [
+                "Conducts experiments on metahuman physiology."
+            ]
+        },
+        {
+            "name": "Lord Midnight",
+            "role": "Crime Lord",
+            "description": "A shadowy crime lord pulling the strings in Paragon's underworld.",
+            "location": "Shadow Row",
+            "relevant_arc": [5, 7],
+            "faction": "Crimson Court",
+            "alignment": "Chaotic Neutral",
+            "notable_interactions": [
+                "Orchestrates underground deals."
+            ]
+        }
+    ]
+}

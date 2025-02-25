@@ -1,0 +1,140 @@
+{
+    "powers": [
+        {
+            "name": "Super Strength",
+            "cost": 4,
+            "description": "Exhibit extraordinary physical strength, allowing you to lift massive objects and deal enhanced melee damage.",
+            "effects": {
+                "passive": "Your melee strikes deal +1d8 damage.",
+                "utility": "Lift up to 5 tons, destroy large obstacles, or perform extraordinary feats of strength (GM discretion)."
+            },
+            "modifier": "Strength",
+            "upgrades": {
+                "Greater Might": {
+                    "cost": 3,
+                    "effect": "Increase unarmed strike damage to +2d8 and your lifting capacity to 20 tons."
+                },
+                "Ground Slam": {
+                    "cost": 2,
+                    "effect": "Create a 15-foot radius shockwave. Creatures must make a Dexterity save (DC = 10 + Strength modifier) or take 2d6 damage and be knocked prone."
+                },
+                "Precision Strength": {
+                    "cost": 2,
+                    "effect": "Gain Advantage on Grappling."
+                },
+                "Throw Anything": {
+                    "cost": 2,
+                    "effect": "Throw a heavy object up to 30 feet as a ranged attack, dealing 2d10 damage. The object lands in a 10-foot radius, potentially affecting multiple targets."
+                }
+            }
+        },
+        {
+            "name": "Energy Blasts",
+            "cost": 4,
+            "description": "Fire a blast of energy at a target within 60 feet, choosing between fire, lightning, force, or radiant damage.",
+            "effects": {
+                "action": "Make a ranged energy attack to deal 2d6 damage (damage type chosen upon selection)."
+            },
+            "modifier": "Dexterity",
+            "upgrades": {
+                "Wide Burst": {
+                    "cost": 3,
+                    "effect": "Fire a 15-foot cone, forcing creatures to make a Dexterity save (DC = 10 + proficiency bonus + relevant modifier) or take 2d6 damage (half on success)."
+                },
+                "Overcharge": {
+                    "cost": 3,
+                    "effect": "Deal 3d10 damage to a single target but take 1d6 recoil damage."
+                },
+                "Piercing Beam": {
+                    "cost": 2,
+                    "effect": "Your blasts ignore resistance to their damage type and deal half damage to creatures immune to it."
+                },
+                "Explosive Impact": {
+                    "cost": 2,
+                    "effect": "Hit a target and create a 10-foot radius explosion. The target takes full damage, and creatures in the area take 1d6 splash damage."
+                }
+            }
+        },
+        {
+            "name": "Teleportation",
+            "cost": 5,
+            "description": "Instantly teleport up to 60 feet to a location you can see.",
+            "effects": {
+                "bonus_action": "Teleport up to 60 feet."
+            },
+            "modifier": "Dexterity",
+            "upgrades": {
+                "Combat Blink": {
+                    "cost": 3,
+                    "effect": "Teleport 10 feet as a reaction to avoid an attack after knowing the attack roll but before damage is dealt."
+                },
+                "Long Range": {
+                    "cost": 2,
+                    "effect": "Teleport up to 500 feet to a location you can see or visualize."
+                },
+                "Mass Teleport": {
+                    "cost": 3,
+                    "effect": "Teleport yourself and up to 5 creatures within 30 feet to a location within 120 feet. Unwilling creatures must make a Wisdom save to resist."
+                },
+                "Phantom Step": {
+                    "cost": 2,
+                    "effect": "After teleporting, gain advantage on your next attack or impose disadvantage on an enemy’s next attack."
+                }
+            }
+        },
+        {
+            "name": "Healing Factor",
+            "cost": 4,
+            "description": "Regenerate health passively and resist damage.",
+            "effects": {
+                "passive": "Regain 2 HP at the start of your turn if you are not at 0 HP. Automatically stabilize when reduced to 0 HP."
+            },
+            "modifier": "Constitution",
+            "upgrades": {
+                "Rapid Recovery": {
+                    "cost": 3,
+                    "effect": "Regain 2d6 HP as a bonus action once per short rest."
+                },
+                "Resilient Body": {
+                    "cost": 2,
+                    "effect": "Gain Advantage on saving throws against poison, disease, and exhaustion. All adverse condition durations are reduced by half."
+                },
+                "Emergency Healing": {
+                    "cost": 3,
+                    "effect": "When reduced to 0 HP, regain 15 HP instantly. Usable once per long rest. However, the massive healing leaves you briefly incapacitated, ending your turn immediately."
+                },
+                "Regeneration": {
+                    "cost": 2,
+                    "effect": "Regain 1d6 + Constitution Modifier HP at the start of each turn instead of 2 HP."
+                }
+            }
+        },
+        {
+            "name": "Super Speed",
+            "cost": 5,
+            "description": "Increase movement speed drastically, enhancing combat effectiveness.",
+            "effects": {
+                "bonus_action": "Increase your movement speed by 30 feet for 1 minute. You also gain advantage on Dexterity saving throws while this is active."
+            },
+            "modifier": "Dexterity",
+            "upgrades": {
+                "Blur": {
+                    "cost": 2,
+                    "effect": "While moving more than 30 feet in a turn, impose disadvantage on attack rolls against you."
+                },
+                "Quick Strike": {
+                    "cost": 3,
+                    "effect": "Perform an additional melee or ranged attack during your turn."
+                },
+                "Afterimage": {
+                    "cost": 3,
+                    "effect": "Create an illusory duplicate by moving at high speed, as a reaction. An attacker must succeed on a Wisdom save (DC = 10 + Dex modifier) or miss entirely."
+                },
+                "Supersonic Dash": {
+                    "cost": 3,
+                    "effect": "Dash 120 feet in a straight line, forcing all creatures in your path to make a Dexterity saving throw or take 3d6 damage and fall prone."
+                }
+            }
+        }
+    ]
+}

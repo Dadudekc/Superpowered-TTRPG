@@ -1,0 +1,35 @@
+{
+    "name": "Victor",
+    "codename": "Vic",
+    "attributes": {
+        "STR": 10,
+        "DEX": 11,
+        "CON": 14,
+        "INT": 15,
+        "WIS": 14,
+        "CHA": 12
+    },
+    "skills": [
+        "Technology",
+        "Deception",
+        "Survival",
+        "History"
+    ],
+    "powers": [
+        {
+            "name": "Teleportation",
+            "cost": 5,
+            "description": "Instantly teleport up to 60 feet.",
+            "activation_type": "Bonus Action",
+            "effect": {}
+        }
+    ],
+    "origin": "Chosen One",
+    "motivation": "Survival",
+    "flaw": "Weak ties to humanity",
+    "hp": 26,
+    "temp_hp": 0,
+    "level": 1,
+    "proficiency_bonus": 2,
+    "backstory": "Victor, known as Vic, grew up as chosen one who was shaped by their motivation for survival. Throughout their life, they struggled with weak ties to humanity, which often tested their resolve. Now, they harness their abilities to carve a path toward their destiny, wielding powers such as Teleportation. With skills in Technology, Deception, Survival, History, they are prepared for the battles ahead."
+}
